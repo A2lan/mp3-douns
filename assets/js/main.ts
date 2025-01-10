@@ -11,6 +11,9 @@ let pause: boolean = false;
 const playlist = document.querySelector(".playlist")!;
 const progressBar = document.getElementById("progress-bar");
 const listItem = playlist.querySelectorAll(".track") as NodeListOf<HTMLElement>;
+const controleTitle = document.querySelector(
+  ".controls__title"
+) as HTMLTitleElement;
 
 const playBtn = document.getElementById("play-btn");
 const nextBtn = document.getElementById("next");
@@ -19,6 +22,8 @@ const data: Track[] = JSON.parse(playlist.getAttribute("data-playlist")!);
 
 const createHowl = (id: number) => {
   const track = data[id];
+  changeIcon(id);
+
   activeTrack = {
     ...track,
     id: id,
@@ -36,6 +41,8 @@ const createHowl = (id: number) => {
       },
     }),
   };
+
+  updateMediaSession(index);
 
   return activeTrack;
 };
@@ -141,46 +148,28 @@ function updateProgressBar() {
   }
 }
 
-// const changeIcon = (id: number) => {
-//   if (activeTrack) {
-//     listItem[activeTrack.id].style.backgroundColor = "green";
-//     console.log(listItem[activeTrack.id]);
-//   }
-
-//   listItem[id].style.backgroundColor = "red";
-//   console.log(listItem[id]);
-// };
-
-let deferredPrompt;
-
-window.addEventListener("beforeinstallprompt", (e) => {
-  // Empêche l'affichage automatique du prompt d'installation
-  e.preventDefault();
-  // Stocke l'événement pour l'utiliser plus tard
-  deferredPrompt = e;
-});
-
-// Ajoute le gestionnaire d'événement sur le bouton
-//@ts-ignore
-document.getElementById("download")!.addEventListener("click", async () => {
-  if (deferredPrompt) {
-    // Affiche le prompt d'installation
-    deferredPrompt.prompt();
-    // Attend la réponse de l'utilisateur
-    const { outcome } = await deferredPrompt.userChoice;
-    // On ne peut utiliser le prompt qu'une seule fois
-    deferredPrompt = null;
-
-    // Optionnel: cache le bouton après l'installation
-    if (outcome === "accepted") {
-      document.getElementById("download").style.display = "none";
-    }
+const changeIcon = (id: number) => {
+  if (activeTrack) {
+    listItem[activeTrack.id].style.color = "white";
+    console.log(listItem[activeTrack.id]);
   }
-});
 
-// Optionnel: détecte si l'app est déjà installée
-window.addEventListener("appinstalled", () => {
-  // Cache le bouton une fois l'app installée
-  document.getElementById("download").style.display = "none";
-  deferredPrompt = null;
-});
+  listItem[id].style.color = "#be185d";
+  console.log(listItem[id]);
+};
+
+const updateMediaSession = (index: number) => {
+  if ("mediaSession" in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: activeTrack.title,
+      artist: "Allan",
+      album: "Dounia",
+      artwork: [
+        { src: "icon-192x192.png", sizes: "192x192", type: "image/png" },
+      ],
+    });
+
+    navigator.mediaSession.setActionHandler("previoustrack", getPreviousSong);
+    navigator.mediaSession.setActionHandler("nexttrack", getNextSong);
+  }
+};
