@@ -24,6 +24,7 @@ const createHowl = (id: number) => {
     id: id,
     howl: new Howl({
       src: track.src,
+      html5: true,
       onpause: pauseHandler,
       onplay: () => {
         playHandler();
