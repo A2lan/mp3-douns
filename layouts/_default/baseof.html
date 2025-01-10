@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/style.css" }} {{
+    with resources.Get "css/index.scss" | toCSS $opts | minify | fingerprint }}
+    <link
+      rel="stylesheet"
+      href="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous"
+    />
+    {{ end }}
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker
+          .register("/service-worker.js")
+          .then(() => console.log("Service Worker Registered"));
+      }
+    </script>
+    <title>Dounia</title>
+  </head>
+  <body>
+    {{ template "body" . }} {{ with resources.Get "js/main.ts" }} {{ if
+    hugo.IsDevelopment }} {{ with . | js.Build }}
+    <script src="{{ .RelPermalink }}"></script>
+    {{ end }} {{ else }} {{ $opts := dict "minify" true }} {{ with . | js.Build
+    $opts | fingerprint }}
+    <script
+      src="{{ .RelPermalink }}"
+      integrity="{{ .Data.Integrity }}"
+      crossorigin="anonymous"
+    ></script>
+    {{ end }} {{ end }} {{ end }}
+  </body>
+</html>

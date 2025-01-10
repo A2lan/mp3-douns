@@ -1,0 +1,18 @@
+<ul
+  class="playlist container"
+  data-playlist="{{ .Site.Data.playlist | jsonify }}"
+>
+  {{ range $index, $item := .Site.Data.playlist }}
+  <div class="track" data-id="{{$index}}">
+    <div class="track__info">
+      <div class="track__info__left">
+        <span class="track__info__num">{{ $index | add 1 }}</span>
+        <h3 class="track__info__title">{{ $item.titre }}</h3>
+      </div>
+      <div class="track__info__right">
+        <span class="track__info__duration">{{ .duration }}</span>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+</ul>

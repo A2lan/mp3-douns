@@ -1,0 +1,29 @@
+@use "./theme" as *;
+
+.track {
+  padding-block: $space-6;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $border;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__left {
+      display: flex;
+      gap: $space-8;
+      align-items: center;
+    }
+
+    &__num {
+      color: rgb(111, 111, 111);
+    }
+
+    &__title {
+      font-size: $fs-lg;
+    }
+  }
+}

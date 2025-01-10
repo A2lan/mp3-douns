@@ -1,0 +1,52 @@
+@use "./theme" as *;
+
+.controls {
+  height: $controls-height;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $bg-transparent;
+  backdrop-filter: blur(3px);
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: $space-6;
+    align-items: center;
+    height: 100%;
+  }
+}
+
+.progress {
+  height: 7px;
+  width: 100%;
+  background-color: rgb(133, 133, 133);
+
+  &__bar {
+    background-color: $accent;
+    height: 100%;
+    width: 0;
+  }
+}
+
+.controls__btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__center {
+    display: flex;
+    align-items: center;
+    gap: $space-4;
+
+    &__circle {
+      background-color: $accent;
+      padding: $space-4;
+      border-radius: 9999px;
+      display: flex;
+    }
+  }
+}
