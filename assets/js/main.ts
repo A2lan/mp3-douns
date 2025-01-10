@@ -157,8 +157,6 @@ window.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
   // Stocke l'événement pour l'utiliser plus tard
   deferredPrompt = e;
-  // Optionnel: affiche le bouton d'installation qui était caché
-  document.getElementById("download")!.style.display = "block";
 });
 
 // Ajoute le gestionnaire d'événement sur le bouton
