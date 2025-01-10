@@ -42,8 +42,6 @@ const createHowl = (id: number) => {
     }),
   };
 
-  updateMediaSession(index);
-
   return activeTrack;
 };
 
@@ -156,20 +154,4 @@ const changeIcon = (id: number) => {
 
   listItem[id].style.color = "#be185d";
   console.log(listItem[id]);
-};
-
-const updateMediaSession = (index: number) => {
-  if ("mediaSession" in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({
-      title: activeTrack.title,
-      artist: "Allan",
-      album: "Dounia",
-      artwork: [
-        { src: "icon-192x192.png", sizes: "192x192", type: "image/png" },
-      ],
-    });
-
-    navigator.mediaSession.setActionHandler("previoustrack", getPreviousSong);
-    navigator.mediaSession.setActionHandler("nexttrack", getNextSong);
-  }
 };
