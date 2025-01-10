@@ -1,6 +1,6 @@
 {
-  "name": "Mon PWA",
-  "short_name": "PWA",
+  "name": "Dounia",
+  "short_name": "Dounia",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

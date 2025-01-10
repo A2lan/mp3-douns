@@ -149,3 +149,39 @@ function updateProgressBar() {
 //   listItem[id].style.backgroundColor = "red";
 //   console.log(listItem[id]);
 // };
+
+let deferredPrompt;
+
+window.addEventListener("beforeinstallprompt", (e) => {
+  // Empêche l'affichage automatique du prompt d'installation
+  e.preventDefault();
+  // Stocke l'événement pour l'utiliser plus tard
+  deferredPrompt = e;
+  // Optionnel: affiche le bouton d'installation qui était caché
+  document.getElementById("download")!.style.display = "block";
+});
+
+// Ajoute le gestionnaire d'événement sur le bouton
+//@ts-ignore
+document.getElementById("download")!.addEventListener("click", async () => {
+  if (deferredPrompt) {
+    // Affiche le prompt d'installation
+    deferredPrompt.prompt();
+    // Attend la réponse de l'utilisateur
+    const { outcome } = await deferredPrompt.userChoice;
+    // On ne peut utiliser le prompt qu'une seule fois
+    deferredPrompt = null;
+
+    // Optionnel: cache le bouton après l'installation
+    if (outcome === "accepted") {
+      document.getElementById("download").style.display = "none";
+    }
+  }
+});
+
+// Optionnel: détecte si l'app est déjà installée
+window.addEventListener("appinstalled", () => {
+  // Cache le bouton une fois l'app installée
+  document.getElementById("download").style.display = "none";
+  deferredPrompt = null;
+});
