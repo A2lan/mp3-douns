@@ -1,2 +1,6 @@
 {{ define "body" }} {{ partial "header" . }} {{ partial "list" . }} {{ partial
-"controls" . }} {{ end }}
+"controls" . }}
+<script id="data" type="application/json">
+  {{ jsonify .Site.Data.playlist | safeJS }}
+</script>
+{{ end }}

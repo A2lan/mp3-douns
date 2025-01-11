@@ -1,98 +1,100 @@
-<section class="controls">
-  <div class="progress">
-    <div id="progress-bar" class="progress__bar"></div>
-  </div>
-  <div class="controls__content container">
-    <h3 class="controls__title"></h3>
-    <div class="controls__btns">
-      <div class="controls__btns__left">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-letter-text"
-        >
-          <path d="M15 12h6" />
-          <path d="M15 6h6" />
-          <path d="m3 13 3.553-7.724a.5.5 0 0 1 .894 0L11 13" />
-          <path d="M3 18h18" />
-          <path d="M4 11h6" />
-        </svg>
-      </div>
-      <div class="controls__btns__center">
-        <svg
-          id="previous"
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <line x1="18" x2="18" y1="20" y2="4" />
-          <polygon points="14,20 4,12 14,4" />
-        </svg>
-        <div id="play-btn" class="controls__btns__center__circle">
+<wc-controls>
+  <section class="controls">
+    <div class="progress">
+      <div id="progress-bar" class="progress__bar"></div>
+    </div>
+    <div class="controls__content container">
+      <h3 class="controls__title"></h3>
+      <div class="controls__btns">
+        <div class="controls__btns__left">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
-            fill="white"
+            fill="none"
             stroke="currentColor"
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-play"
+            class="lucide lucide-letter-text"
           >
-            <polygon points="6 3 20 12 6 21 6 3" />
+            <path d="M15 12h6" />
+            <path d="M15 6h6" />
+            <path d="m3 13 3.553-7.724a.5.5 0 0 1 .894 0L11 13" />
+            <path d="M3 18h18" />
+            <path d="M4 11h6" />
           </svg>
         </div>
-        <svg
-          id="next"
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-step-forward"
-        >
-          <line x1="6" x2="6" y1="4" y2="20" />
-          <polygon points="10,4 20,12 10,20" />
-        </svg>
-      </div>
-      <div class="controls__btns__right">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="lucide lucide-repeat"
-        >
-          <path d="m17 2 4 4-4 4" />
-          <path d="M3 11v-1a4 4 0 0 1 4-4h14" />
-          <path d="m7 22-4-4 4-4" />
-          <path d="M21 13v1a4 4 0 0 1-4 4H3" />
-        </svg>
+        <div class="controls__btns__center">
+          <svg
+            id="previous"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <line x1="18" x2="18" y1="20" y2="4" />
+            <polygon points="14,20 4,12 14,4" />
+          </svg>
+          <div id="play-btn" class="controls__btns__center__circle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="white"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-play"
+            >
+              <polygon points="6 3 20 12 6 21 6 3" />
+            </svg>
+          </div>
+          <svg
+            id="next"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-step-forward"
+          >
+            <line x1="6" x2="6" y1="4" y2="20" />
+            <polygon points="10,4 20,12 10,20" />
+          </svg>
+        </div>
+        <div id="replay-btn" class="controls__btns__right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-repeat"
+          >
+            <path d="m17 2 4 4-4 4" />
+            <path d="M3 11v-1a4 4 0 0 1 4-4h14" />
+            <path d="m7 22-4-4 4-4" />
+            <path d="M21 13v1a4 4 0 0 1-4 4H3" />
+          </svg>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+</wc-controls>
