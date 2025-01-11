@@ -95,7 +95,7 @@ function replay() {
 const updateMediaSession = () => {
   if ("mediaSession" in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
-      title: app.store.activeTrack.title,
+      title: app.store.activeTrack.titre,
       artist: "Allan",
       album: "Dounia",
       artwork: [
