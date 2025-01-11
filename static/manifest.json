@@ -3,9 +3,9 @@
   "short_name": "Dounia",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
-  "orientation": "any",
+  "background_color": "#101010",
+  "theme_color": "#101010",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "/icon-192x192.png",
