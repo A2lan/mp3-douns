@@ -18,6 +18,7 @@ export default class Controls extends HTMLElement {
   #modal;
   #status = true;
   #lyricsOpen = false;
+  #title;
 
   constructor() {
     super();
@@ -29,6 +30,7 @@ export default class Controls extends HTMLElement {
     this.#replayBtn = this.querySelector("#replay-btn");
     this.#openLyrics = this.querySelector("#open-lyrics");
     this.#modal = document.querySelector("wc-modal");
+    this.#title = this.querySelector(".controls__title");
   }
 
   renderPlayBtn(status) {
@@ -84,6 +86,10 @@ export default class Controls extends HTMLElement {
         this.#modal.setAttribute("isOpen", this.#lyricsOpen);
         this.#openLyrics.classList.toggle("btn-active");
       }
+    });
+
+    window.addEventListener("changetrack", () => {
+      this.#title.innerText = app.store.activeTrack.titre;
     });
   }
 

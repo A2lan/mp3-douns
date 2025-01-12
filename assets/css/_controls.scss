@@ -17,6 +17,12 @@
     align-items: center;
     height: 100%;
   }
+
+  &__title {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: $space-4;
+  }
 }
 
 .progress {

@@ -54,3 +54,7 @@
   duration: "3:06"
   src: "/audio/au-futur.mp3"
   lyrics: "au-futur"
+- titre: "Boycott"
+  duration: "3:32"
+  src: "/audio/boycott.mp3"
+  lyrics: "boycott"
