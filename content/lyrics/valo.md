@@ -1,6 +1,7 @@
-# #ValoPrisonnier
+# ValoPrisonnier
 
-**Couplet 1**
+## Couplet 1
+
 Quand j’étais petit,\
 J’aimais m’amuser,\
 Sortir voir des amis,\
@@ -14,35 +15,39 @@ Parce que si je bouge mes balles partent sur le côtés,\
 Je suis mort j’ai même pas eu le temps de tirer,\
 Mais je ne peux plus m’en passer.
 
-**Refrain**
+## Refrain
+
 Quand j’étais petit,\
-Je jouais à la balle au prisonnier (balle au prisonnier),\
+Je jouais à la balle au prisonnier (_balle au prisonnier_),\
 Maintenant j’ai bien grandi,\
-Je suis #ValoPrisonnier (valorant),\
+Je suis #ValoPrisonnier (_valorant_),\
 De balle au prisonnier,\
 A #ValoPrisonnier…
 
-**Couplet 2**
+## Couplet 2
+
 60 euros un skin,\
 C’est le prix d’une voiture en Chine,\
 Mais mon perso sera plus beau,\
 Enfin non c’est un skin d’arme,\
-Enfin bon c’est rigolo (enfin non),\
-Enfin bon c’est pas un drame (mmmh…).\
+Enfin bon c’est rigolo (_enfin non_),\
+Enfin bon c’est pas un drame (_mmmh…_).\
 Même si petit pour ce prix,\
 C’était environ 2 jeux entiers,\
 Ainsi qu’un happy meal,\
 Puis une soirée ciné.
 
-**Refrain**
+## Refrain
+
 Quand j’étais petit,\
-Je jouais à la balle au prisonnier (balle au prisonnier),\
+Je jouais à la balle au prisonnier (_balle au prisonnier_),\
 Maintenant j’ai bien grandi,\
-Je suis #ValoPrisonnier (valorant),\
+Je suis #ValoPrisonnier (_valorant_),\
 De balle au prisonnier,\
 A #ValoPrisonnier…
 
-**Couplet 3**
+## Couplet 3
+
 C’est R2 pour faire feu,\
 R1 pour ma capacité deux,\
 Puisque L1 c’est ma capacité 1,\
@@ -56,10 +61,11 @@ Avec tout ça je peux jouer bien,\
 Mais quand j’étais petit je jouais bien mieux,\
 Je jouais bien mieux avec 3 fois rien.
 
-**Refrain**
+## Refrain
+
 Quand j’étais petit,\
-Je jouais à la balle au prisonnier (balle au prisonnier),\
+Je jouais à la balle au prisonnier (_balle au prisonnier_),\
 Maintenant j’ai bien grandi,\
-Je suis #ValoPrisonnier (valorant),\
+Je suis #ValoPrisonnier (_valorant_),\
 De balle au prisonnier,\
 A #ValoPrisonnier…

@@ -1,70 +1,80 @@
 # L'âne et le cheval
 
-**Couplet 1**
+## Couplet 1
+
 Dans un quartier chic de Paris,\
-Un âne se fait un ami (un ami), \
+Un âne se fait un ami (_un ami_), \
 Un grand cheval, musclé, charmant,\
-Sûrement un pur sang (pur sang). \
+Sûrement un pur sang (_pur sang_). \
 "Viens chez moi" dit le cheval,\
 "Je sais faire de bonnes lasagnes", \
 "Avec plaisir !" répondit l'âne,\
 Qui semblait avoir la dalle.
 
-**Pont**
+## Pont
+
 Et ça fait "Hi Han!" quand l'âne est content,\
 "Hu hu", répond le cheval chevelu.
 
-**Refrain**
+## Refrain
+
 Une belle histoire d'amitié (c'est important),\
 Qui se fait naturellement, \
-Qui fait rêver évidemment (évidemment),\
-Mais qui va mal se terminer (oh nan nan), \
-Mais pourquoi ? (Mais pourquoi ?)
+Qui fait rêver évidemment (_évidemment_),\
+Mais qui va mal se terminer (_oh nan nan_), \
+Mais pourquoi ? (_Mais pourquoi ?_)
 
-**Couplet 2**
+## Couplet 2
+
 L'âne arrive chez son ami,\
-Un bel appart en plein Paris (le pouvoir d'achat), \
-Celui-ci doit bien gagner sa vie (belle superficie), \
+Un bel appart en plein Paris (_le pouvoir d'achat_), \
+Celui-ci doit bien gagner sa vie (_belle superficie_), \
 Contrairement à celui-ci !\
 "Et qu'est ce que tu fais dans la vie ?",\
 Demanda l'animal, \
 Je joue au Réal Madrid,\
 Répond fièrement le cheval.
 
+## Pont
+
 Et ça fait "Hi Han!" quand l'âne est content,\
 "Hu hu", répond le cheval chevelu.
 
-**Refrain**
-Une belle histoire d'amitié (c'est important),\
-Qui se fait naturellement, \
-Qui fait rêver évidemment (évidemment),\
-Mais qui va mal se terminer (oh nan nan), \
-Mais pourquoi ? (Mais pourquoi ?)
+## Refrain
 
-**Couplet 3**
-Ce qui devait arriver arriva (bah oui),\
+Une belle histoire d'amitié (_c'est important_),\
+Qui se fait naturellement, \
+Qui fait rêver évidemment (_évidemment_),\
+Mais qui va mal se terminer (_oh nan nan_), \
+Mais pourquoi ? (_Mais pourquoi ?_)
+
+## Couplet 3
+
+Ce qui devait arriver arriva (_bah oui_),\
 C'est à l'âne de recevoir, \
 Mais le doute le submergea,\
-Et la peur de décevoir (la peur). \
+Et la peur de décevoir (_la peur_). \
 Il galopa à Ikea pour acheter,\
 Le cadre d'un zèbre dans une prairie, \
 Dans quel but vous me demandez ?\
 Mais pour mentir à son ami ! \
 Le cheval est curieux lui aussi,\
 Et le cadre fut aperçu, \
-"Et dans cette photo, c'est qui ?" (c'est qui) ?\
+"Et dans cette photo, c'est qui ?" (_c'est qui_) ?\
 "C'est moi à la Juventus"... \
 (C'est moi à la Juventus...)\
 (C'est moi à la Juventus...)
 
-**Refrain**
+## Refrain
+
 Une belle histoire d'amitié,\
 Qui se fait naturellement, \
-Qui fait rêver évidemment (évidemment),\
-Mais qui va mal se terminer (oh nan nan),\
+Qui fait rêver évidemment (_évidemment_),\
+Mais qui va mal se terminer (_oh nan nan_),\
 Parce que par fierté l'âne ment...
 
-**Outro**
+## Outro
+
 Le cheval pris au dépourvu...\
 Comprit que l'âne avait menti... \
 Il a perdu son ami...\

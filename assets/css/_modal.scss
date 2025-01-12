@@ -22,6 +22,8 @@
   & > h1 {
     font-size: $fs-4xl;
     margin-bottom: $space-14;
+    letter-spacing: -0.05rem;
+    font-weight: 500;
   }
 
   & > p {
@@ -30,12 +32,16 @@
     }
   }
 
-  & strong {
+  & h2 {
     font-weight: 500;
     display: block;
     margin-bottom: $space-2;
     font-size: $fs-xs;
-    color: rgb(114, 114, 114);
+    color: $accent;
     text-transform: uppercase;
+  }
+
+  & em {
+    font-style: italic;
   }
 }

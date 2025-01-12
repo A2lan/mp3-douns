@@ -1,6 +1,7 @@
 # Les voix
 
-**Couplet 1**
+## Couplet 1
+
 Toi tu as combien de palettes ?\
 Moi je n'en ai que cinquante sept.\
 Mais il parait qu'à Séphora,\
@@ -14,23 +15,26 @@ Mais si je mourrais demain ?\
 Puis c'est pas moi qui achète,\
 Ce sont les voix dans ma tête.
 
-**Pont**
-Dounia, achète...\
-Dounia, achète...\
-Dounia, achète...\
-Dounia, achète...
+## Pont
 
-**Refrain**
+**Dounia**, achète...\
+**Dounia**, achète...\
+**Dounia**, achète...\
+**Dounia**, achète...
+
+## Refrain
+
 Je ne peux pas m'en empêcher,\
 J'entend les voix dans ma tête,\
 Celles qui me disent d'acheter,\
-Tout ce qui s'achète (oh, tout ce qui s'achète).\
+Tout ce qui s'achète (_oh, tout ce qui s'achète_).\
 Mais je ne peux pas m'en empêcher,\
 Moi j'ai envie de dépenser,\
 J'écoute ces voix dans ma tête,\
-Celles qui disent achète (achète).
+Celles qui disent achète (_achète_).
 
-**Couplet 2**
+## Couplet 2
+
 Je me réveille un beau matin,\
 Encore des notifications,\
 Les messages je m'en bas les reins,\
@@ -44,23 +48,26 @@ Mais je pourrais mourrir demain,\
 Et si je devais mourir demain,\
 Je veux un fond d'écran snap marrant.
 
-**Pont**
-Dounia, achète...\
-Dounia, achète...\
-Dounia, achète...\
-Dounia, achète...
+## Pont
 
-**Refrain**
+**Dounia**, achète...\
+**Dounia**, achète...\
+**Dounia**, achète...\
+**Dounia**, achète...
+
+## Refrain
+
 Je ne peux pas m'en empêcher,\
 J'entend les voix dans ma tête,\
 Celles qui me disent d'acheter,\
-Tout ce qui s'achète (oh, tout ce qui s'achète).\
+Tout ce qui s'achète (_oh, tout ce qui s'achète_).\
 Mais je ne peux pas m'en empêcher,\
 Moi j'ai envie de dépenser,\
 J'écoute ces voix dans ma tête,\
-Celles qui disent achète (achète).
+Celles qui disent achète (_achète_).
 
-**Couplet 3**
+## Couplet 3
+
 Et j'achète et j'achète et j'achète et j'achète,\
 Des skins Valo à 60 euros ?\
 Et j'achète et j'achète et j'achète et j'achète,\
@@ -69,19 +76,21 @@ Et j'achète et j'achète et j'achète et j'achète,\
 Une manette rose parce que c'est beau...\
 Et j'achète et j'achète et j'achète et j'achète,\
 Des pneus neufs pour une twingo,\
-Alors que j'ai même pas de twingo (oh nan),\
+Alors que j'ai même pas de twingo (_oh nan_),\
 Mais j'achète, et j'achète, et j'achète, et j'achète,\
 Tout ce qui me passe par la tête...
 
-**Refrain**
+## Refrain
+
 Je ne peux pas m'en empêcher,\
 J'entend les voix dans ma tête,\
 Celles qui me disent d'acheter,\
-Tout ce qui s'achète (oh, tout ce qui s'achète).\
+Tout ce qui s'achète (_oh, tout ce qui s'achète_).\
 Mais je ne peux pas m'en empêcher,\
 Moi j'ai envie de dépenser,\
 J'écoute ces voix dans ma tête,\
-Celles qui disent achète (achète).
+Celles qui disent achète (_achète_).
 
-**Outro**
+## Outro
+
 Et j'achète et j'achète et j'achète et j'achète...

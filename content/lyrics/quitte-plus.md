@@ -1,6 +1,7 @@
 # Ne me quitte plus
 
-**Couplet 1**
+## Couplet 1
+
 C’est une bonne soirée ce soir,\
 La lumière de ma télé m’éclaire dans le noir, \
 Je me détends, me laisse aller et m’endors,\
@@ -14,7 +15,8 @@ Sur ma cheville encore en train de ronfler. \
 Si j’avais su je serai resté couché,\
 Maintenant je ne peux juste plus marcher.
 
-**Refrain**
+## Refrain
+
 Oh ma petite cheville,\
 J’ai toujours été là pour toi, \
 Pourquoi tu m’as trahi ?\
@@ -24,7 +26,8 @@ Je rampe comme un morse, \
 Je t’en prie revient,\
 Ne me laisse pas avec cette entorse.
 
-**Couplet 2**
+## Couplet 2
+
 Je pensais que c’était comme le vélo,\
 Que ça ne s’oubliait pas, \
 Je ne sais pas me mettre debout solo,\
@@ -38,7 +41,8 @@ Sans tomber sur mon postérieur, \
 Cheville s’il te plait soutient moi,\
 Ne me laisse plus tomber comme ça.\
 
-**Refrain**
+## Refrain
+
 Oh ma petite cheville,\
 J’ai toujours été là pour toi, \
 Pourquoi tu m’as trahi ?\
@@ -48,7 +52,8 @@ Je rampe comme un morse, \
 Je t’en prie revient,\
 Ne me laisse pas avec cette entorse.
 
-**Couplet 3**
+## Couplet 3
+
 L’âme et le corps ne font-ils qu’uns ? \
 Ou ce sont deux entités distinctes ?\
 Mon âme était bien consciente, \
@@ -66,7 +71,8 @@ Pour comprendre pourquoi les lits ont été inventés, \
 C’est parce qu’en s’endormant assis,\
 Ca nous fait perdre nos chevilles.
 
-**Refrain**
+## Refrain
+
 Oh ma petite cheville,\
 J’ai toujours été là pour toi, \
 Pourquoi tu m’as trahi ?\
