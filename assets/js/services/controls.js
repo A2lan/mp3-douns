@@ -109,3 +109,9 @@ const updateMediaSession = () => {
     navigator.mediaSession.setActionHandler("nexttrack", setNextTrack);
   }
 };
+
+export const getLyrics = async (slug) => {
+  const res = await fetch(`/lyrics/${slug}`);
+  const html = await res.text();
+  return html;
+};

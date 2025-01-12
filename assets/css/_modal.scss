@@ -1,0 +1,41 @@
+@use "./theme" as *;
+
+.modal {
+  height: 100%;
+  display: none;
+  background-color: $bg-transparent;
+  backdrop-filter: blur(3px);
+  padding-bottom: calc($controls-height + $space-8);
+  padding-top: 70px;
+  overflow-y: scroll;
+}
+
+.active {
+  position: fixed;
+  inset: 0;
+  display: block;
+}
+
+.lyrics {
+  line-height: 1.4;
+
+  & > h1 {
+    font-size: $fs-4xl;
+    margin-bottom: $space-14;
+  }
+
+  & > p {
+    &:not(:last-child) {
+      margin-bottom: $space-8;
+    }
+  }
+
+  & strong {
+    font-weight: 500;
+    display: block;
+    margin-bottom: $space-2;
+    font-size: $fs-xs;
+    color: rgb(114, 114, 114);
+    text-transform: uppercase;
+  }
+}

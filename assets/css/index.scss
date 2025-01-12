@@ -2,6 +2,7 @@
 @use "header";
 @use "list";
 @use "controls";
+@use "modal";
 
 .container {
   width: min(100% - 3rem, 40rem);
