@@ -58,3 +58,7 @@
   duration: "3:32"
   src: "/audio/boycott.mp3"
   lyrics: "boycott"
+- titre: "Dans ses filets"
+  duration: "3:03"
+  src: "/audio/filets.mp3"
+  lyrics: "filets"
